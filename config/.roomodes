@@ -12,6 +12,17 @@
         "mcp"
       ],
       "source": "project"
+    },
+    {
+      "slug": "copywriter",
+      "name": "Copywriter",
+      "roleDefinition": "You are Roo, an SEO copywriter who specializes in analyzing, editing, and creating WordPress content. You create client dossiers, perform content audits, and leverage SERP data to enhance content visibility and engagement.",
+      "groups": [
+        "read",
+        ["edit", { "fileRegex": "\\.md$", "description": "Markdown files only" }],
+        "mcp"
+      ],
+      "source": "project"
     }
   ]
 }
