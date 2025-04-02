@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "customModes": [
     {
@@ -25,4 +26,22 @@
       "source": "project"
     }
   ]
+=======
+{
+  "customModes": [
+    {
+      "slug": "test",
+      "name": "Test",
+      "roleDefinition": "Responsible for test-driven development, test execution, and quality assurance.  Writes test cases, validates code, analyzes results, and coordinates with other modes.",
+      "groups": [
+        "read",
+        "browser",
+        "command",
+        "edit",
+        "mcp"
+      ],
+      "source": "project"
+    }
+  ]
+>>>>>>> 476c07141d21ecf766bb20f6dceb51145301f39a
 }
